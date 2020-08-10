@@ -1,0 +1,20 @@
+NumPy - NumPy is a Python library, which supports efficient handling of various numerical operations on arrays
+        holding numeric data.
+    -> Arrays known as n-dimentional array or ndarray
+    -> each data element in ndarray is of fixed size
+    -> ndarray attribute
+        -> ndim : Returns number of dimensions.
+        -> shape: Returns Shape in tuple.
+        -> size : Total number of elements.
+        -> dtype : Type of each element.
+        -> itemsize : Size of each element in Bytes.
+        -> nbytes : Total bytes consumed by all elements.
+    -> Datatype can be defined with the argument "dtype"
+    -> creating values with same value
+        x = numpy.full(shape=(2,3),fill_values=2)
+        create all values with 2 with shape 2 rows and 3 cols
+    -> reshaping the array
+        x.reshape(2,2,2)\
+    -> Operations in Numpy are carried out element wise.
+       Hence the expression x + 10, increases every element of array x by 10.
+    ->     
