@@ -17,4 +17,19 @@ NumPy - NumPy is a Python library, which supports efficient handling of various 
         x.reshape(2,2,2)\
     -> Operations in Numpy are carried out element wise.
        Hence the expression x + 10, increases every element of array x by 10.
-    ->     
+
+Pandas - Its a data analysis tool, provides easy to use highly efficient data structures, deal with numeric,
+         labelled data stored in form of tables
+         Pandas is build on numpy
+       -> Fundamental data structures in pandas
+            - Series: A 1-D array.
+            - Data Frame: A 2-D array or two or more Series joined together
+            - Panel: A 3-D array
+       -> Describe() method provides details like mean, std etc about a series
+       -> info() method provides the data about the data-frame
+       -> read_csv is used to read data from a CSV file and to_csv is utilized to write data to a CSV file.
+       -> Indexing the dataframe , df.index = [] some list
+            - pandas support date time indexing
+       -> Data Cleaning
+            Pandas provide methods like drop_duplicates, isnull, etc to deal with missing data.
+       ->
