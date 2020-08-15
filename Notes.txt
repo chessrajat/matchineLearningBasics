@@ -32,4 +32,8 @@ Pandas - Its a data analysis tool, provides easy to use highly efficient data st
             - pandas support date time indexing
        -> Data Cleaning
             Pandas provide methods like drop_duplicates, isnull, etc to deal with missing data.
-       ->
+MatPlotLib - Used for data visualisation
+        -> Figure: Whole area chosen for plotting.
+        -> Axes: Area where data is plotted.
+        -> Axis: Number-line like objects, which define graph limits.
+        -> Artist: Every element on the figure is an artist.

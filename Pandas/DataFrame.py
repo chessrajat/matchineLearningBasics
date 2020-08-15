@@ -8,5 +8,17 @@ data_Frame = pd.DataFrame(data,index=['s1','s2','s3','s4','s5'])
 # print(data_Frame.columns)
 
 data1 = [{'a': 1, 'b': 2}, {'a': 5, 'b': 10, 'c': 20}]
-df = pd.DataFrame(data1, columns=['a', 'b'])
-print(df.shape)
+# df = pd.DataFrame(data1, columns=['a', 'b'])
+
+data2 = [{'a': 1, 'b': 2}, {'a': 5, 'b': 10, 'c': 20}]
+df = pd.DataFrame(data, columns=['a', 'b'])
+
+df1 = pd.DataFrame({'A':[34, 78, 54], 'B':[12, 67, 43]}, index=['r1', 'r2', 'r3'])
+df1.loc['r4'] = [67, 78]
+
+df2 = pd.DataFrame({'A':[34, 78, 54], 'B':[12, 67, 43]}, index=['r1', 'r2', 'r3'])
+print(df2)
+# print(df2.loc[1])
+# print(df2.iloc[1])
+# print(df2.iloc["r2"])
+print(df2[1])
