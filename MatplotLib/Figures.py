@@ -24,7 +24,7 @@ ax.set(title='My First Plot',
 x = [1, 2, 3, 4]
 y = [2, 4, 6, 8]
 # label can be used to give the value to the plot
-plt.plot([10, 12, 14, 16], label="linear-growth")
+plt.plot([10, 12, 14, 16], label="linear-growth",color="red")
 plt.legend() # this is used to show the label on the plot
 plt.show()
 
