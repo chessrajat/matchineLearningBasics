@@ -9,3 +9,11 @@ import numpy as np
 #     return True
 # 
 # print(fun(-6))
+
+def Convert(string):
+    list1=[]
+    list1[:0]=string
+    return list1
+# Driver code
+str1="ABCD"
+print(Convert(str1))
