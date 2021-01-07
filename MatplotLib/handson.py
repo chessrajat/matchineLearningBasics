@@ -32,5 +32,12 @@ import numpy as np
 # plt.show()
 
 
+t = np.arange(0.0, 5.0, 0.01)
+s1 = np.sin(2*np.pi*t)
+s2 = np.sin(4*np.pi*t)
+fig = plt.figure(figsize=(8,6))
+ax = plt.subplot(2,1,)
+plt.suptitle("Sin(2*pi*x)")
+
 
 

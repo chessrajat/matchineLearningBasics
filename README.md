@@ -13,3 +13,5 @@ such as pass or fail, win or loose
 ### Support vector matchines
 - finding a difference between data
 - seperation will be clear  
+
+# Natural Language Processing
